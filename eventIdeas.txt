@@ -1,0 +1,23 @@
+Actor Moved:
+    event_on( eSys, "actorMoved", (void *) clearTile);
+    sendEvent( eSys, "actorMoved", &(positionComponent) { x, y };
+ActorCollision
+
+
+AIstateChange
+playerStateChange
+playerDeath
+Game Paused
+ActorCreated;
+actorDestroyed;
+Sound Started
+Animation Started;
+Animation Ended;
+
+******************
+BLAST EM PROTOTYPE*
+******************
+Level Loaded;
+Brick Destroyed;
+powerupActivated;
+LevelComplete!
